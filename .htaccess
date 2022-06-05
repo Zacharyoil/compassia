@@ -1,0 +1,6 @@
+Allow from all
+Allow from 192.168.0.153
+
+Options +MultiViews
+AddHandler php5-script php
+AddType text/html php
