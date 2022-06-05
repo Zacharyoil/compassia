@@ -18,7 +18,7 @@
 I'm currently the one who host the minecraft server Compassia. I'm also hosting a discord bot called Social Credit Bot.<br> I'm also the one who host this website. I'm the head developper of all of these.</p>
 
 <p>I live in Quebec, Canada.<br>
-I'm a french native speaker with a not so great english so if you see any grammar fault please let my know on discord at Zacharyoil#4175</p>
+I'm a french native speaker with a not so great english so if you see any grammar fault please let me know on discord at Zacharyoil#4175</p>
 </body>
 
 
