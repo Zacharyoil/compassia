@@ -1,12 +1,5 @@
-<?php
-
-
-
-?>
-
-
-
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <title>Developper</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -138,3 +131,4 @@ I'm a french native speaker with a not so great english so if you see any gramma
     }
 
     </style>
+</html>
