@@ -1,0 +1,275 @@
+<!doctype html>
+    <html>
+        <head>
+        <title>Compassia - Home</title>
+        <link rel="icon" href="https://www.compassiamc.com/lo.png" type="image/x-icon" />
+        <div id="css">
+        <style>
+            body {
+                background-color: rgb(54, 57, 63);
+                font-family: sans-serif;
+            }
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+            p, h1,h2,h3,h4,h5,h6 {
+                color: #fff;
+            }
+            .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+
+            .corner {
+                border: 2px solid grey;
+                border-radius: 10px;
+                width: 300px;
+            }
+            .feature {
+                border: 4px solid grey;
+                border-radius: 10px;
+                width: 300px;
+                height: 300px;
+                float: right;
+            }
+            .invfield {
+                background-color: inherit;
+                border: none;
+                outline: none;
+                color: white;
+                font-family: sans-serif;
+                font-size: 16px;
+            }
+            imgbanner {
+                top: 0;
+            }
+            .topnav a.glowing {
+                color: #FCFFC2;
+                text-align: center;
+                animation: glow 1s ease-in-out infinite alternate;
+            }
+
+            @keyframes glow {
+  from {
+    text-shadow: 0 0 0px #D3DE00;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #C4CF00;
+  }
+}
+        </style>
+        </div>
+        <div id="nav">
+        <style>
+            /* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+}
+
+.topnav .icon {
+  display: none;
+}
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(a *) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+  
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+        
+.bgdiv {
+  background-color:  rgb(61, 61, 61);
+  border: 5px solid gray;
+  width: 200px;
+  height: 300px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.imgdiv {
+  background-color: rgb(61, 61, 61);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+            .glowing_small {
+                text-align: center;
+                animation: glow_s 0.5s ease-in-out infinite alternate;
+            }
+
+            @keyframes glow_s {
+  from {
+    text-shadow: 0 0 0px #fff;
+  }
+  
+  to {
+    text-shadow: 0 0 3px #fff;
+  }
+}
+            .flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container > div {
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+        </style>
+        </div>
+        </head>
+        <body>
+            <img class='imgbanner' src='https://www.compassiamc.com/compassia_website_banner.png' alt='banner' style='width:100%;height:250px;object-fit:cover; position: sticky;' class='center'>
+             <div class='topnav' id='topnav'>
+  <a href='index.html'>Home</a>
+  <a href='./map_home.html'>Maps</a>
+  <a href='./store_home.html'>Store</a>  
+
+  <div class='topnav-right'>
+  <a href='donation.html' class='glowing'>Donate</a>
+  <a href='contact.html'>Contact</a>
+  <a href='account/login.php'>Log-In</a>
+  <a href='javascript:void(0);' class='icon' onclick='myFunction()'>
+    <i class='fa fa-bars'></i>
+  </a>
+</div>
+  <div class="topnav-centered">
+  <a href="#" class="active">Ranks</a>
+  </div>
+</div>
+        <div id="title" style="text-align: center;">
+            <h1>Store: Ranks</h1>
+        </div>
+        <div class="flex-container" style="text-align:center;">
+        <div onclick="location.href='/shop/item/donor.php'" class="bgdiv">
+<br>
+<div class="imgdiv" style="max-width:50%">
+<img src="https://cdn.discordapp.com/attachments/974550528237404200/982819691548512256/unknown.png" alt="donator rank" style="">
+</div>
+<div>
+<p style="text-align:center;color:#00BDF9;">Donator Rank</p>
+<h4 style="text-align:center">1$</h4>
+<br>
+</div>
+</div>
+        <div onclick="location.href='/shop/item/uncommon.php'" class="bgdiv">
+<br>
+<div class="imgdiv" style="max-width:50%">
+<img src="https://cdn.discordapp.com/attachments/974550528237404200/982821067116642334/unknown.png" alt="uncommon rank" style="">
+</div>
+<div>
+<p style="text-align:center;color:#00F990;">Uncommon Rank</p>
+<h4 style="text-align:center">2$</h4>
+<br>
+</div>
+</div>
+        <div onclick="location.href='/shop/item/rare.php'" class="bgdiv">
+<br>
+<div class="imgdiv" style="max-width:50%">
+<img src="https://cdn.discordapp.com/attachments/974550528237404200/982830088326373446/unknown.png" alt="rare rank" style="">
+</div>
+<div>
+<p style="text-align:center;color:#2200F9;">Rare Rank</p>
+<h4 style="text-align:center;">3$</h4>
+<br>
+</div>
+</div>
+        <div onclick="location.href='/shop/item/rare.php'" class="bgdiv">
+<br>
+<div class="imgdiv" style="max-width:50%">
+<img src="https://cdn.discordapp.com/attachments/974550528237404200/982830818479185940/unknown.png" alt="epic rank" style="">
+</div>
+<div>
+<p style="text-align:center;color:#F90000;">Epic Rank</p>
+<h4 style="text-align:center;">5$</h4>
+<h4 style="text-align:center;" class="glowing_small">(20% Off! 4$)</h4>
+</div>
+</div>
+        <div onclick="location.href='/shop/item/donor.php'" class="bgdiv">
+<br>
+<div class="imgdiv" style="max-width:50%">
+<img src="https://cdn.discordapp.com/attachments/974550528237404200/982831262127497276/unknown.png" alt="king rank" style="">
+</div>
+<div>
+<p style="text-align:center;color:#DBF616;">King Rank</p>
+<h4 style="text-align:center">6$</h4>
+<h4 style="text-align:center;" class="glowing_small">(21.4% Off! 5$)</h4>
+</div>
+</div>
+</div>
