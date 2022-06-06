@@ -204,7 +204,7 @@ function copyjv() {
 
 <!-- actually display what to display 
 <img class='imgbanner' src="/compassia/compassia_website_banner.png" alt="banner" style="width:100%;height:250px;object-fit: cover;" class="center">-->
-<h2 style="text-align:center">Hone your speciality test autofetch</h2>
+<h2 style="text-align:center">Hone your speciality</h2>
 
 <div class="corner">
     <h3>&nbsp;&nbsp;Bedrock</h3>
