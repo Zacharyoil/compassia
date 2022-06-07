@@ -1,5 +1,6 @@
 Deny from all
 Allow from 192.168.0.153
+Allow from 67.235.138.30
 
 Options +MultiViews
 AddHandler php5-script php
