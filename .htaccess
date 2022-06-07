@@ -1,11 +1,8 @@
-Allow from all
+Deny from all
 Allow from 192.168.0.153
 
 Options +MultiViews
 AddHandler php5-script php
 AddType text/html php
 
- RewriteCond %{REMOTE_ADDR} !^192\.168\.0\.153
- RewriteCond %{REQUEST_URI} !/index.html$ [NC]
- RewriteCond %{REQUEST_URI} !\.(jpe?g?|png|gif) [NC]
- RewriteRule .* /index.html [R=302,L]
+ErrorDocument 403 /index.html
