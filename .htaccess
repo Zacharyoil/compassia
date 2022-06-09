@@ -6,4 +6,4 @@ Options +MultiViews
 AddHandler php5-script php
 AddType text/html php
 
-ErrorDocument 403 /index.html
+ErrorDocument 403 /403.html
