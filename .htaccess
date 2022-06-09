@@ -1,7 +1,7 @@
 Deny from all
 Allow from 192.168.0.153
 Allow from 67.235.138.30
-Allow from 172.58.162.10
+Allow from 172.58.175.100
 
 Options +MultiViews
 AddHandler php5-script php
