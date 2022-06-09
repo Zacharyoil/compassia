@@ -7,3 +7,4 @@ AddHandler php5-script php
 AddType text/html php
 
 ErrorDocument 403 /503.html
+RedirectMatch 301 ^/$ /503.html
