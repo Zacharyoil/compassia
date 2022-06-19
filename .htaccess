@@ -1,15 +1,5 @@
-#acess
-Deny from all
-Allow from 192.168.0.153
-Allow from 67.235.138.30
-Allow from 172.58.175.100
-Allow from 2603:9001:580a:e80c:d4ad:fb9c:39de:249f
+Allow from all
 
-#lang.
 Options +MultiViews
 AddHandler php5-script php
 AddType text/html php
-
-#HTTP503
-ErrorDocument 403 /503.html
-RedirectMatch 301 ^/$ /503.html
